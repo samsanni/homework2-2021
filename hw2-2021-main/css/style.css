@@ -3,7 +3,7 @@
 body{
   font-family: "Times New Roman", sans-serif;
   background-color: #000000;
-	color #FFFFFF;
+	color:#FFFFFF;
 }
 
 h1{
@@ -22,50 +22,67 @@ p{
   padding-top: 15px;
 }
 
-/*Style the images*/
 img{
-    height: 200px;
-    width:auto;
-    border: 3px solid blue;
-    padding: 25px;
-    border-radius: 10px;
-    margin: 10px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
 }
 
-/*Make the h2 heading match h1*/
-h2{
-	font-size: 2em;
-	font-weight: bold;
+div{
+
+  min-height: 150px;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
 }
 
-/*Improve the spacing for paragraphs AND headings*/
-p, h1, h2 {
-    padding: 10px;
+#red{
+
+  background-color: #FF0000;
+  text-align: right;
 }
 
-/*Add borders around the main components and some
-space too*/
-header, nav, main, h1, footer{
-	border: 2px solid grey;
-	margin: 10px 0;
+#blue{
+
+  background-color: #0000FF;
+  text-align: left;
+
 }
 
+#yellow{
 
-/*Change the styling for all of the list
-items in the nav section*/
-nav li{
-	background-color: #ECFF4D;
-	padding:10px;
-	width:25%;
-	border:1px solid black;
-	display: inline-block;
-	width: 20%;
+  background-color: #FFFF00;
+  text-align: right;
+  color: #000000
+
 }
 
+#green{
 
+background-color: #008000;
+text-align:left;
 
-/*Added this so the links stay the same color*/
-a:visited{color:#0000FF}
+}
 
+#yellow h2 {
+
+  color: #000000
+  text-shadow: 4px 4px 2px #c7e2c7
+}
+
+#yellow p{
+
+  color: #000000
+
+}
+
+footer p{
+
+  text-align: center;
+  padding-right: 10px;
+  padding-bottom: 10px;
 
 }

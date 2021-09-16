@@ -6,10 +6,20 @@ body{
 	color #FFFFFF;
 }
 
-/*Make the h1 heading bigger with a bold font*/
 h1{
-	font-size: 2em;
-	font-weight: bold;
+	font-size: 64px;
+	text-align:center;
+  padding: 10px;
+}
+
+h2{
+	font-size: 32px;
+  text-shadow: 4px 4px 2px #808080;
+}
+
+p{
+  font-size: 24px;
+  padding-top: 15px;
 }
 
 /*Style the images*/
